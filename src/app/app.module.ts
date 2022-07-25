@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 import { HeaderComponent } from './components/layouts/header/header.component';
 import { FooterComponent } from './components/layouts/footer/footer.component';
 import { HomeComponent } from './components/pages/home/home/home.component';
@@ -24,6 +25,11 @@ import { SolutionForIndustryComponent } from './components/pages/solution-for-in
 import { SupplyChainManagementSystemComponent } from './components/pages/supply-chain-management-system/supply-chain-management-system.component';
 import { CustomEcommerceWebsiteComponent } from './components/pages/custom-ecommerce-website/custom-ecommerce-website.component';
 import { SanitaryManagementSystemComponent } from './components/pages/sanitary-management-system/sanitary-management-system.component';
+import { SmsComponent } from './components/pages/Services/sms/sms.component';
+import { NonMaskingSmsComponent } from './components/pages/Services/non-masking-sms/non-masking-sms.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { OtpProviderBdComponent } from './components/pages/Services/otp-provider-bd/otp-provider-bd.component';
+import { PromotionalSmsInBdComponent } from './components/pages/Services/promotional-sms-in-bd/promotional-sms-in-bd.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -48,10 +54,15 @@ import { SanitaryManagementSystemComponent } from './components/pages/sanitary-m
     SupplyChainManagementSystemComponent,
     CustomEcommerceWebsiteComponent,
     SanitaryManagementSystemComponent,
+    SmsComponent,
+    NonMaskingSmsComponent,
+    OtpProviderBdComponent,
+    PromotionalSmsInBdComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
