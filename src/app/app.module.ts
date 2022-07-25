@@ -19,6 +19,11 @@ import { HomeFeatureBoxComponent } from './components/pages/home/home-feature-bo
 import { HomeFeatureBox2Component } from './components/pages/home/home-feature-box2/home-feature-box2.component';
 import { HomePriceTableComponent } from './components/pages/home/home-price-table/home-price-table.component';
 import { ContactComponent } from './components/pages/contact/contact/contact.component';
+import { PluginsComponent } from './components/pages/plugins/plugins.component';
+import { SolutionForIndustryComponent } from './components/pages/solution-for-industry/solution-for-industry.component';
+import { SupplyChainManagementSystemComponent } from './components/pages/supply-chain-management-system/supply-chain-management-system.component';
+import { CustomEcommerceWebsiteComponent } from './components/pages/custom-ecommerce-website/custom-ecommerce-website.component';
+import { SanitaryManagementSystemComponent } from './components/pages/sanitary-management-system/sanitary-management-system.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,6 +43,11 @@ import { ContactComponent } from './components/pages/contact/contact/contact.com
     HomeFeatureBox2Component,
     HomePriceTableComponent,
     ContactComponent,
+    PluginsComponent,
+    SolutionForIndustryComponent,
+    SupplyChainManagementSystemComponent,
+    CustomEcommerceWebsiteComponent,
+    SanitaryManagementSystemComponent,
   ],
   imports: [
     BrowserModule,
