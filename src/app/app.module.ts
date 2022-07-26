@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { TabsModule } from 'ngx-bootstrap/tabs';
 import { HeaderComponent } from './components/layouts/header/header.component';
 import { FooterComponent } from './components/layouts/footer/footer.component';
 import { HomeComponent } from './components/pages/home/home/home.component';
@@ -30,6 +30,9 @@ import { NonMaskingSmsComponent } from './components/pages/Services/non-masking-
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { OtpProviderBdComponent } from './components/pages/Services/otp-provider-bd/otp-provider-bd.component';
 import { PromotionalSmsInBdComponent } from './components/pages/Services/promotional-sms-in-bd/promotional-sms-in-bd.component';
+import { SmppGatewayProviderComponent } from './components/pages/Services/smpp-gateway-provider/smpp-gateway-provider.component';
+import { DomainProviderInBdComponent } from './components/pages/Services/domain-provider-in-bd/domain-provider-in-bd.component';
+import { UsaResellerHostingComponent } from './components/pages/Services/usa-reseller-hosting/usa-reseller-hosting.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -58,11 +61,15 @@ import { PromotionalSmsInBdComponent } from './components/pages/Services/promoti
     NonMaskingSmsComponent,
     OtpProviderBdComponent,
     PromotionalSmsInBdComponent,
+    SmppGatewayProviderComponent,
+    DomainProviderInBdComponent,
+    UsaResellerHostingComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    TabsModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

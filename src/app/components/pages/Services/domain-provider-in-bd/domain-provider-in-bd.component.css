@@ -1,0 +1,45 @@
+.banner-top{
+    background-image: url('https://massdataltd.com/wp-content/uploads/2021/07/MDL-teachnology.jpg');
+    background-repeat: no-repeat;
+    background-color:#A400ED ;
+    background-size: cover;
+   min-height: 100%;
+   padding: 100px;
+   /* background-position: 30%; */
+}
+
+.main-section{
+    background-color: #F7F7F7;
+}
+
+.button-div{
+    display: flex;
+    justify-content: space-around;
+}
+.button-div .btnn{
+    background-color: #5E821B;
+    color: #fff;
+    
+    padding: 10px 32px;
+    border: none;
+    border-radius: 20px;
+    
+}
+
+/* .tab-div{
+    padding: 10px;
+} */
+.ta-div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.card-div{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+}
+span{
+    font-size: 30px;
+    margin-top: -20px;
+}

@@ -11,6 +11,9 @@ import { SmsComponent } from './components/pages/Services/sms/sms.component';
 import { NonMaskingSmsComponent } from './components/pages/Services/non-masking-sms/non-masking-sms.component';
 import { OtpProviderBdComponent } from './components/pages/Services/otp-provider-bd/otp-provider-bd.component';
 import { PromotionalSmsInBdComponent } from './components/pages/Services/promotional-sms-in-bd/promotional-sms-in-bd.component';
+import { SmppGatewayProviderComponent } from './components/pages/Services/smpp-gateway-provider/smpp-gateway-provider.component';
+import { DomainProviderInBdComponent } from './components/pages/Services/domain-provider-in-bd/domain-provider-in-bd.component';
+import { UsaResellerHostingComponent } from './components/pages/Services/usa-reseller-hosting/usa-reseller-hosting.component';
 
 const routes: Routes = [
   {
@@ -30,6 +33,9 @@ const routes: Routes = [
   {path:'non-masking-sms-in-bd', component:NonMaskingSmsComponent},
   {path:'otp-provider-in-bd', component:OtpProviderBdComponent},
   {path:'promotional-sms-in-bd', component:PromotionalSmsInBdComponent},
+  {path:'smpp-gateway-provider-in-bd', component:SmppGatewayProviderComponent},
+  {path:'domain-provider-in-bd', component:DomainProviderInBdComponent},
+  {path:'usa-reseller-hosting-in-bd', component:UsaResellerHostingComponent},
 ];
 
 @NgModule({
