@@ -33,6 +33,14 @@ import { PromotionalSmsInBdComponent } from './components/pages/Services/promoti
 import { SmppGatewayProviderComponent } from './components/pages/Services/smpp-gateway-provider/smpp-gateway-provider.component';
 import { DomainProviderInBdComponent } from './components/pages/Services/domain-provider-in-bd/domain-provider-in-bd.component';
 import { UsaResellerHostingComponent } from './components/pages/Services/usa-reseller-hosting/usa-reseller-hosting.component';
+import { SeoComponent } from './components/pages/Services/seo/seo.component';
+import { RefundAndReturnPolicyComponent } from './components/pages/About/refund-and-return-policy/refund-and-return-policy.component';
+import { TermsConditionsComponent } from './components/pages/About/terms-conditions/terms-conditions.component';
+import { PrivacyPolicyComponent } from './components/pages/About/privacy-policy/privacy-policy.component';
+import { AboutMassDataComponent } from './components/pages/About/about-mass-data/about-mass-data.component';
+import { HostingPrivacyPolicyComponent } from './components/pages/Hosting/hosting-privacy-policy/hosting-privacy-policy.component';
+import { HostingServiceLevelAgreementComponent } from './components/pages/Hosting/hosting-service-level-agreement/hosting-service-level-agreement.component';
+import { TosComponent } from './components/pages/Hosting/tos/tos.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -64,6 +72,14 @@ import { UsaResellerHostingComponent } from './components/pages/Services/usa-res
     SmppGatewayProviderComponent,
     DomainProviderInBdComponent,
     UsaResellerHostingComponent,
+    SeoComponent,
+    RefundAndReturnPolicyComponent,
+    TermsConditionsComponent,
+    PrivacyPolicyComponent,
+    AboutMassDataComponent,
+    HostingPrivacyPolicyComponent,
+    HostingServiceLevelAgreementComponent,
+    TosComponent,
   ],
   imports: [
     BrowserModule,

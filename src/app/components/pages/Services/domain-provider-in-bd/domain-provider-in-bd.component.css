@@ -1,17 +1,58 @@
 .banner-top{
     background-image: url('https://massdataltd.com/wp-content/uploads/2021/07/MDL-teachnology.jpg');
     background-repeat: no-repeat;
-    background-color:#A400ED ;
     background-size: cover;
-   min-height: 100%;
-   padding: 100px;
-   /* background-position: 30%; */
+   background-position: 50%;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    height: 300px;
+    min-height: 100%;
+    padding: 100px;
+}
+
+.swiper-slide{
+    will-change: transform;
+    border-style: solid;
+    border-width: 0;
+    /* -webkit-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-transition-property: border,background,-webkit-transform;
+    transition-property: border,background,-webkit-transform;
+    -o-transition-property: border,background,transform;
+    transition-property: border,background,transform;
+    transition-property: border,background,transform,-webkit-transform; */
+    overflow: hidden;
+    height: 400px !important;
+    transition-duration: calc(5000ms*1.2);
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
 .main-section{
     background-color: #F7F7F7;
 }
+.reseller-btn{
+    color: #fff;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 14px 32px;
+    border-width: 2px;
+    border-radius: 16px;
+    border-color: #fff;
+    background: transparent;
 
+}
+.signup-btn{
+    font-size: 14px;
+    color: #55595c;
+    border-color: #55595c;
+    padding: 14px 32px;
+    border-radius: 24px;
+    
+}
 .button-div{
     display: flex;
     justify-content: space-around;
