@@ -250,3 +250,14 @@
     font-size: 17px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.12);
   }
+
+  @media only screen and (max-width: 768px) {
+    .re-seller-div{
+      display: block !important;
+    }
+    .rev-divv{
+      text-align: center;
+      margin: 40px 0;
+      padding: 0px 10px;
+    }
+  }

@@ -23,6 +23,7 @@ import { SmppGatewayProviderComponent } from './components/pages/Services/smpp-g
 import { DomainProviderInBdComponent } from './components/pages/Services/domain-provider-in-bd/domain-provider-in-bd.component';
 import { UsaResellerHostingComponent } from './components/pages/Services/usa-reseller-hosting/usa-reseller-hosting.component';
 import { SeoComponent } from './components/pages/Services/seo/seo.component';
+import { ResourcesComponent } from './components/pages/Resources/resources/resources.component';
 
 const routes: Routes = [
   {
@@ -53,6 +54,7 @@ const routes: Routes = [
   {path:'hosting-privacy-policy', component:HostingPrivacyPolicyComponent},
   {path:'hosting-service-level-agreement', component:HostingServiceLevelAgreementComponent},
   {path:'hosting-terms-of-service-tos', component:TosComponent},
+  {path:'resources', component:ResourcesComponent},
   
 ];
 

@@ -287,3 +287,7 @@
     font-family: sans-serif;
     padding: 14px 32px;
   }
+  .target-link{
+    text-decoration: none;
+    color: #bcba63;
+  }

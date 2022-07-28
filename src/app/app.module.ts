@@ -41,6 +41,7 @@ import { AboutMassDataComponent } from './components/pages/About/about-mass-data
 import { HostingPrivacyPolicyComponent } from './components/pages/Hosting/hosting-privacy-policy/hosting-privacy-policy.component';
 import { HostingServiceLevelAgreementComponent } from './components/pages/Hosting/hosting-service-level-agreement/hosting-service-level-agreement.component';
 import { TosComponent } from './components/pages/Hosting/tos/tos.component';
+import { ResourcesComponent } from './components/pages/Resources/resources/resources.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -80,6 +81,7 @@ import { TosComponent } from './components/pages/Hosting/tos/tos.component';
     HostingPrivacyPolicyComponent,
     HostingServiceLevelAgreementComponent,
     TosComponent,
+    ResourcesComponent,
   ],
   imports: [
     BrowserModule,
