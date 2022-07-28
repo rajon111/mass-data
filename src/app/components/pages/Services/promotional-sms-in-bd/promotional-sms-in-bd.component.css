@@ -25,7 +25,9 @@
   .table .price-section{
     display: flex;
     justify-content: center;
+    margin-bottom: -40px;
   }
+
   .table .price-area{
     height: 120px;
     width: 120px;
@@ -115,11 +117,36 @@
 
   .promotion-card{
     background-color: #F7F7F7;
+    max-width: 550px;
+    margin-top: 5px;
+    border: none;
   }
 
   /*  */
+
+  .top-pricing{
+    /* background: ; */
+    /* padding:0 0 20px; */
+  }
+
+    /*  */
+    .add-cart{
+      padding: 14px 32px;
+      border-radius: 24px;
+      font-size: 20px;
+      cursor: pointer;
+      
+    transition: all 0.3s ease;
+    }
+    .add-cart:hover{
+      background: #F98269;
+      color: white;
+    }
   
-  .table .btn button{
+  
+    /*  */
+  
+  /* add-cart{
     width: 80%;
     height: 50px;
     color: #fff;
@@ -131,7 +158,7 @@
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  
+   */
   .table .btn button:hover{
     border-radius: 5px;
   }
@@ -249,4 +276,14 @@
     text-align: center;
     font-size: 17px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+  }
+
+  .no-res-btn{
+    color: #55595c;
+    border-color: #55595c;
+    fill: #55595c;
+    border-radius: 24px;
+    font: 15px;
+    font-family: sans-serif;
+    padding: 14px 32px;
   }
