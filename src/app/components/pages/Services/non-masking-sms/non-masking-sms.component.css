@@ -40,4 +40,15 @@
     color:white;
     background:#007bff;
   }
+  a{
+    text-decoration: none;
+    
+  }
+  a:hover{
+    color: white;
+  }
+  .link-para{
+    text-decoration: none;
+    color: #bcba63;
+  }
  

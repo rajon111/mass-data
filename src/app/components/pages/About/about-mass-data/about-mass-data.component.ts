@@ -11,5 +11,7 @@ export class AboutMassDataComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
+
 
 }

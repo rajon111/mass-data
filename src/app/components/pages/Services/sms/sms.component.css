@@ -48,7 +48,10 @@
     scroll-behavior: smooth;
     overflow-x: hidden !important;
 }
-
+.link-para{
+  text-decoration: none;
+  color: #bcba63;
+}
 /* .titleb:before {
     background: #f60 none repeat scroll 0 0;
     bottom: -20px;
