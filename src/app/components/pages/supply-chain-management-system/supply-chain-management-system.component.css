@@ -11,3 +11,11 @@
     justify-content: center !important;
     align-items: center !important;
 }
+.text-height{
+    line-height: 2;
+}
+
+.link-class{
+    text-decoration: none;
+    color: #bcba63;
+}
