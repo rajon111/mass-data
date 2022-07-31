@@ -186,5 +186,12 @@ only screen and (max-width: 440px),
     .custom{
         display: block !important;
         text-align: center;
+    }.reseller-btn{
+        padding: 10px 15px ;
+        font-size: 12px;
+    }
+    .signup-btn{
+        padding: 10px 15px ;
+        font-size: 12px; 
     }
 }
